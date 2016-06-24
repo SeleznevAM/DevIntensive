@@ -24,13 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         Log.d(TAG,"onCreate");
 
-        mRedBtn = (Button) findViewById(R.id.red_btn);
-        mGreenBtn = (Button) findViewById(R.id.green_btn);
-        mEditText = (EditText) findViewById(R.id.text_view);
-
-        mRedBtn.setOnClickListener(this);
-        mGreenBtn.setOnClickListener(this);
-
 
         if (savedInstanceState==null){
             //активити было запущено впервые
@@ -87,18 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.green_btn:
-                mEditText.setBackgroundColor(Color.GREEN);
-                mColorMode = Color.GREEN;
-                break;
-            case R.id.red_btn:
-                mEditText.setBackgroundColor(Color.RED);
-                mColorMode = Color.RED;
-                break;
-
-            default: break;
-        }
+        Log.d(TAG, "OnClick");
     }
 
     @Override
