@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">Devintensive</string>
+    <string name="app_name">Селезнев Александр</string>
     <string name="about_me">
         Я родился в 1984 году. С малых лет у меня были интересы с технике и компьютерам. К сожалению по достижению определенного количества лет планы
         родителей разошлись с моими и я пошел учится на юриста. ОДнако меня всегда тянуло к компьютерам и программированию. Теперь я хочу наверстать упущенное.
     </string>
+    <string name="my_mail">samoubica@post.ru</string>
+    <string name="random_number">5</string>
+    <string name="reit">Рейтинг</string>
+    <string name="string_of_code">Написано строк кода</string>
+    <string name="projects">Проектов</string>
+    <string name="telefon_number_icon_desc">telefon_number_icon</string>
+    <string name="telefon_number_hint">Мобильный телефон</string>
+    <string name="telephone_call_desc">telephone_call</string>
+    <string name="send_e_mail">send e-mail</string>
 </resources>
